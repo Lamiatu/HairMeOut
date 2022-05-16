@@ -1,0 +1,211 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 9, 2022, 7:47:17 PM
+    Author     : noras
+*/
+
+
+body{
+  background-color: #dfd2c2; 
+  margin: 0;
+  font-family: monospace;
+    
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f9f6f3;
+  padding-right: 50px;
+
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active:hover {
+  color: burlywood;
+}
+
+.topnav a.active {
+  color: black;
+  padding-top:35px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+
+}
+
+.logo{
+    float: left;
+    width: 80px;
+}
+
+
+.Homecontainer{
+    width: 50%;
+    padding-left: 25%; 
+    padding-top: 15%;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+input:hover {
+  opacity:1;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.signupbtn , .signOut , .addReq {    
+  float: left;
+  background-color: #CD853F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.7;  
+}
+
+.Logcontainer{
+    width: 50%;
+    padding-left: 25%; 
+    padding-top: 8%;  
+}
+
+.container {
+    width: 50%;
+    padding: 16px;
+    padding-left: 25%; 
+
+}
+
+input{
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/** user profile **/
+
+.prof {
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+
+
+.userinfo {
+    margin: 2%;
+}
+
+.userinfo p{
+  font-size: 15px;
+}
+
+
+.userrev {
+    margin: 2%;
+
+
+}
+
+.userproductrev{
+    border: 3px solid #f1f1f1;
+    margin: 2%;
+    padding: 2%;
+
+
+}
+
+.userimg {
+    width:60px;
+    float: left; 
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.prodimg{
+    width:140px;
+    float: left; 
+    margin-right: 15px; 
+}
+
+hr.hprof {
+  border: 2px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button.editrev {
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+  margin-left: 80%;
+  margin-right:0%;
+
+}
+
+button.editrev:hover{
+     color: burlywood;
+ 
+}
+
+
+.userrev h2 {
+    text-align: center;
+    
+}
+
+#quantity{
+    width:3%;
+}
+
+button.editrev2 {
+    width:10%; 
+   
+}
+
+button.editrev2:hover{
+     color: burlywood;
+ 
+}
+
+.userproductrev{
+    
+    border: solid #f1f1f1;   
+}
+
